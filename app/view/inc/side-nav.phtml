@@ -1,0 +1,38 @@
+            <h5 class="font-normal no-transform">Latest Documentation</h5>
+            <div>
+                <a href="http://docs.popphp.org/" class="btn btn-md btn-block btn-outline btn-blue"
+                   target="_blank">
+                    <i class="fa fa-file-text"></i> <span class="smaller-text">Docs</span>
+                </a>
+                <a href="https://api.popphp.org/3.6/" class="btn btn-md btn-block btn-outline btn-blue"
+                   target="_blank">
+                    <i class="fa fa-code"></i> <span class="smaller-text">API</span>
+                </a>
+            </div>
+            <hr />
+            <h5 class="font-normal no-transform">Get Latest Version <?=$version; ?></h5>
+            <div>
+                <a href="https://github.com/phirecms/phirecms" class="btn btn-md btn-block btn-outline btn-blue"
+                   target="_blank">
+                    <i class="fa fa-lg fa-github"></i>
+                    <span class="smaller-text">GitHub</span>
+                </a>
+                <a href="/assets/downloads/phire-cms-<?=$version; ?>.zip"
+                   class="btn btn-md btn-block btn-outline btn-blue" target="_blank"
+                   onclick="ga('send', 'event', 'file', 'download', 'Download Pop PHP v3.6 ZIP');">
+                    <i class="fa fa-download"></i>
+                    <span class="smaller-text">zip</span><?php if (!empty($zip)): ?> <span class="bytes"><?=$zip; ?></span><?php endif; ?>
+                </a>
+                <a href="/assets/downloads/phire-cms-<?=$version; ?>.tar.gz"
+                   class="btn btn-md btn-block btn-outline btn-blue" target="_blank"
+                   onclick="ga('send', 'event', 'file', 'download', 'Download Pop PHP v3.6 TGZ');">
+                    <i class="fa fa-download"></i>
+                    <span class="smaller-text">gz</span><?php if (!empty($tgz)): ?> <span class="bytes"><?=$tgz; ?></span><?php endif; ?>
+                </a>
+                <a href="/assets/downloads/phire-cms-<?=$version; ?>.tar.bz2"
+                   class="btn btn-md btn-block btn-outline btn-blue" target="_blank"
+                   onclick="ga('send', 'event', 'file', 'download', 'Download Pop PHP v3.6 TBZ2');">
+                    <i class="fa fa-download"></i>
+                    <span class="smaller-text">bz2</span><?php if (!empty($tbz)): ?> <span class="bytes"><?=$tbz; ?></span><?php endif; ?>
+                </a>
+            </div>

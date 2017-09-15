@@ -1,2 +1,4 @@
 # phirecms.org
-Phire CMS Website
+
+This is the repository for the official Phire CMS Website.
+
