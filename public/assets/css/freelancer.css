@@ -63,7 +63,7 @@ hr.star-light {
 
 hr.star-light:after {
     color: white;
-    background-color: #358cc6;
+    background-color: #2693bf;
 }
 
 hr.star-primary {
@@ -106,7 +106,7 @@ section h2 {
 
 section.success {
     color: white;
-    background: #358cc6;
+    background: #2693bf;
 }
 
 div.code-div {
@@ -432,7 +432,7 @@ header.masthead {
     padding-bottom: 50px;
     text-align: center;
     color: white;
-    background: #358cc6;
+    background: #2693bf;
 }
 
 header.masthead img {
